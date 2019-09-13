@@ -1,0 +1,28 @@
+// Variable Overrides
+$red: #e3444c;
+
+$primary: $red;
+$brand-primary: $red;
+$link-color: $red;
+
+a {
+    color: $red;
+}
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+/* Base */
+@import "site-base";
+/* Navbar */
+@import "site-navbar";
+/* Blocks */
+@import "site-blocks";
+
+
+// Change H2 font
+
+.h2{
+    font-family: Cambo;
+}
