@@ -28,3 +28,8 @@ a {
 .h2{
     font-family: Cambo;
 }
+
+/* .invalid CSS class instead or pseudo selector */
+input.invalid {
+    border-color: red;
+  }
