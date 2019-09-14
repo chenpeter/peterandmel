@@ -31,5 +31,15 @@ a {
 
 /* .invalid CSS class instead or pseudo selector */
 input.invalid {
-    border-color: red;
+    border-color: $red;
   }
+
+// Make the hover boxes text white
+.unit-4:hover {
+    color: white;
+}
+
+// Getting rid of horizontal scrolling
+body{
+    overflow-x:hidden;
+    }

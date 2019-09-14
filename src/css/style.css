@@ -1641,4 +1641,10 @@ h1, h2, h3, h4, h5,
 
 /* .invalid CSS class instead or pseudo selector */
 input.invalid {
-  border-color: red; }
+  border-color: #e3444c; }
+
+.unit-4:hover {
+  color: white; }
+
+body {
+  overflow-x: hidden; }
